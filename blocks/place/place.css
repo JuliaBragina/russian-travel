@@ -1,0 +1,58 @@
+.place{
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  @media screen and (min-width: 1281px) {
+    .place{
+      max-width: 984px;
+      /*padding-left: 148px;*/
+    }
+  }
+  
+  @media screen and (max-width: 1280px) {  /*стиль для экрана ниже 1280px*/
+    .place{
+      max-width: 984px;
+    }
+  }
+  
+  @media screen and (max-width: 1024px){
+    .place{
+      max-width: 928px;
+      /*padding-left: 48px;*/
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .place{
+      max-width: 720px;
+      /*padding-left: 24px;*/
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+    .place{
+      max-width:650px;
+      /*padding-left: 24px;*/
+    }
+  }
+  
+  @media screen and (max-width: 540px) {
+    .place{
+      max-width:540px;
+      /*padding-left: 24px;*/
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .place{
+      max-width:425px;
+      /*padding-left: 24px;*/
+    }
+  }
+  
+  @media screen and (max-width: 320px) { /*стиль для экрана ниже 320px*/
+    .place{
+      max-width: 320px;
+      /*padding-left: 24px;*/
+    }
+  }
