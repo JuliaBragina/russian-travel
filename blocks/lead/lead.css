@@ -1,0 +1,48 @@
+.lead{
+    margin: 0 auto;
+  } 
+
+@media screen and (min-width: 1281px) {
+  .lead__figure{
+    min-height: 1005px;
+    padding-bottom: 92px;
+  }
+}
+  
+@media screen and (max-width: 1280px) {  /*стиль для экрана ниже 1280px*/
+  .lead{
+    min-height: 1005px;
+    padding-bottom: 92px;
+  }
+}
+@media screen and (max-width: 1024px){
+  .lead{
+    min-height: 962px;
+    padding-bottom: 92px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lead{
+    min-height: 862px;
+    padding-bottom: 88px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .lead{
+    min-height: 490px;
+    padding-bottom: 64px;
+  }
+}
+@media screen and (max-width:425px){
+  .lead{
+    min-height: 406px;
+    padding-bottom: 64px;
+  }
+}
+
+@media screen and (max-width: 320px) { /*стиль для экрана ниже 320px*/
+  .lead{
+    min-height: 406px;
+    padding-bottom: 63px;
+  }
+}

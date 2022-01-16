@@ -1,0 +1,15 @@
+.place__description{
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 640px){
+  .place__description{
+    max-width: 96vw;
+  }
+}
+
+@media screen and (max-width: 560px){
+  .place__description{
+    max-width: 90vw;
+  }
+}

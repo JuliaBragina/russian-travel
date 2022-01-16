@@ -1,0 +1,8 @@
+.form__item{
+  display: none;
+}
+  
+.form__item:checked + .form__label{
+  border-bottom: 2px solid #fff;
+  cursor: default;
+}

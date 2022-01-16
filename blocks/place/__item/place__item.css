@@ -1,0 +1,74 @@
+.place__item{
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(2, auto);
+    padding-bottom: 80px;
+  }
+  
+  .place__item:nth-of-type(5){
+    padding-bottom: 96px;
+  }
+  
+  @media screen and (min-width: 1281px) {
+    .place__item{
+      max-width: 984px;
+      grid-gap: 46px 40px;
+    }
+  }
+  
+  @media screen and (max-width: 1280px) { 
+    .place__item{
+      max-width: 984px;
+      grid-gap: 46px 40px;
+    }
+  }
+  
+  @media screen and (max-width: 1024px){
+    .place__item{
+      max-width: 928px;
+      grid-gap: 48px 32px;
+    }
+  }
+  
+  @media screen and (max-width: 768px){
+    .place__item{
+      max-width: 720px;
+      grid-gap: 48px 28px;
+    }
+  }
+
+  @media screen and (max-width: 640px){
+    .place__item{
+      grid-template-rows: repeat(4, auto);
+      grid-template-columns: repeat(1, 100vw);
+      grid-gap: 32px 0;
+      overflow: hidden;
+    }
+  }
+  
+  @media screen and (max-width:560px){
+    .place__item{
+      grid-template-rows: repeat(4, auto);
+      grid-template-columns: repeat(1, 100vw);
+      grid-gap: 32px 0;
+      overflow: hidden;
+    }
+  }
+  
+  @media screen and (max-width:425px){
+    .place__item{
+      grid-template-rows: repeat(4, auto);
+      grid-template-columns: repeat(1, 100vw);
+      grid-gap: 32px 0;
+      overflow: hidden;
+    }
+  }
+  
+  @media screen and (max-width: 320px) { /*стиль для экрана ниже 320px*/
+    .place__item{
+      grid-template-rows: repeat(4, auto);
+      grid-template-columns: repeat(1, 100vw);
+      grid-gap: 32px 0;
+      overflow: hidden;
+    }
+  }

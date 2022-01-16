@@ -1,0 +1,62 @@
+.photo-grid{
+  padding: 0;
+  padding-bottom: 92px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media screen and (min-width: 1281px) {
+  .photo-grid{
+    max-width: 94vw;
+    grid-gap: 16px;
+  }
+}
+
+@media screen and (max-width: 1280px) {  /*стиль для экрана ниже 1280px*/  
+  .photo-grid{
+    max-width: 92.5vw; /*1184px*/
+    grid-gap: 16px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .photo-grid{
+    max-width: 90.6vw;
+    grid-gap: 14px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid{
+    max-width: 93.8vw;
+    grid-gap: 16px;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 88px;
+  } 
+}
+
+@media screen and (max-width: 425px){
+  .photo-grid{
+    max-width: 92vw;
+    grid-gap: 14px;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 64px;
+  }
+}
+
+@media screen and (max-width: 320px) { /*стиль для экрана ниже 320px*/
+  .photo-grid{
+    max-width: 90vw;
+    grid-gap: 12px;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 64px;
+  }
+}
+
