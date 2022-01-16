@@ -8,3 +8,6 @@ This is a training project. It shows working with
 4. form.
 
 In this project the metodology of BEM is used. 
+
+GitHub Pages:
+https://juliabragina.github.io/russian-travel/
