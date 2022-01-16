@@ -9,7 +9,7 @@
   line-height: 22px;
 }
 
-@media screen and (max-width: 320px) { /*стиль для экрана ниже 320px*/
+@media screen and (max-width: 425px) { /*стиль для экрана ниже 320px*/
   .cover__description{
     max-width: 288px;
     height: 48px;
