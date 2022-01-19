@@ -5,6 +5,7 @@
 
 @media screen and (min-width: 1281px) {
   .place__img{
+    width: 100%;
     max-width: 460px;
     max-height: 460px;
   }
@@ -12,6 +13,7 @@
 
 @media screen and (max-width: 1280px) {
    .place__img{
+    width: 100%;
     max-width: 460px;
     max-height: 460px;
   }
@@ -19,6 +21,7 @@
 
 @media screen and (max-width: 1024px){
   .place__img{
+    width: 100%;
     max-width: 440px;
     max-height: 440px;
   }
@@ -26,6 +29,7 @@
 
 @media screen and (max-width: 768px) {
   .place__img{
+    width: 100%;
     max-width: 340px;
     max-height: 340px;
   }

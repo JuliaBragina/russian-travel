@@ -1,13 +1,14 @@
 .footer__author{
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 16px;
   text-align: right;
   margin: 0;
+
+  font-weight: 400;
+  font-family: 'Inter-Regular';
 }
 
-@media screen and (max-width:560px){
+@media screen and (max-width: 560px){
   .footer__author{
     font-size: 14px;
     line-height: 14px;

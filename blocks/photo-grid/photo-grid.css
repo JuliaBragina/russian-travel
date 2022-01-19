@@ -14,9 +14,9 @@
   }
 }
 
-@media screen and (max-width: 1280px) {  /*стиль для экрана ниже 1280px*/  
+@media screen and (max-width: 1280px) {
   .photo-grid{
-    max-width: 92.5vw; /*1184px*/
+    max-width: 92.5vw;
     grid-gap: 16px;
   }
 }
@@ -50,7 +50,7 @@
   }
 }
 
-@media screen and (max-width: 320px) { /*стиль для экрана ниже 320px*/
+@media screen and (max-width: 320px) {
   .photo-grid{
     max-width: 90vw;
     grid-gap: 12px;

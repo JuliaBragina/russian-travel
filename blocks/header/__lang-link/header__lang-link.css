@@ -1,0 +1,9 @@
+.header__lang-link{
+  list-style-type: none;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}

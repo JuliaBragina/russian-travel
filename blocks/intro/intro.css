@@ -4,40 +4,44 @@
 
 @media screen and (min-width: 1281px) {
   .intro{
-    padding-left: 10%;
     padding-bottom: 92px;
-    max-width: 800px;
+    max-width: 984px;
+    margin: 0 auto;
   }
 }
 
-@media screen and (max-width: 1280px) {  /*стиль для экрана ниже 1280px*/
+@media screen and (max-width: 1280px) { 
   .intro{
-    padding-left: 11.4%;
-    max-width: 690px;
+    padding-bottom: 92px;
+    max-width: 984px;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 1024px){
   .intro{
-    padding-left: 5%;
-    max-width: 690px;
+    padding-bottom: 92px;
+    max-width: 928px;
+    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro{
+    padding-bottom: 88px;
     padding-left: 3%;
     max-width: 720px;
   }
 }
 
-@media screen and (max-width:425px){
+@media screen and (max-width:425px) {
   .intro{
+    padding-bottom: 64px;
     padding-left: 5%;
     max-width: 300px;
   }
 }
 
-@media screen and (max-width: 320px) { /*стиль для экрана ниже 320px*/
+@media screen and (max-width: 320px) {
   .intro{
     padding-left: 5%;
     max-width: 288px;

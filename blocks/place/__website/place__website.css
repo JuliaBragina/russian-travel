@@ -10,6 +10,18 @@
   }
 }
 
+@media screen and (max-width: 640px) {
+  .place__website{
+    padding-left: 8%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .place__website{
+    padding-left: 7%;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .place__website{
     padding-left: 6%;
