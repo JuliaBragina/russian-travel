@@ -1,19 +1,8 @@
 .lead__figure{
   margin: 0 auto;
-}
+  max-width: 984px;
+  min-height: 615px;
 
-@media screen and (min-width: 1281px) {
-  .lead__figure{
-    max-width: 984px;
-    min-height: 615px;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .lead__figure{
-    max-width: 984px;
-    min-height: 615px;
-  }
 }
 
 @media screen and (max-width: 1024px){
@@ -32,21 +21,6 @@
 
 @media screen and (max-width: 560px) {
   .lead__figure{
-    max-width: 100%;
-    min-height: 200px;
-  }
-}
-
-@media screen and (max-width:425px){
-  .lead__figure{
-    max-width: 100%;
-    min-height: 200px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .lead__figure{
-    max-width: 100%;
     min-height: 200px;
   }
 }

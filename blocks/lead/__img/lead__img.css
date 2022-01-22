@@ -4,18 +4,7 @@
   object-fit: contain;
   width: 100%;
   padding-bottom: 8px;
-}
-
-@media screen and (min-width: 1281px) {
-  .lead__img{
-    min-height: 615px;
-  }
-}
-
-@media screen and (max-width: 1280px) {  
-  .lead__img{
-    min-height: 615px;
-  }
+  min-height: 615px;
 }
 
 @media screen and (max-width: 1024px){
@@ -37,11 +26,6 @@
 }
 
 @media screen and (max-width:425px){
-    .lead__img{
-      min-height: 200px;
-    }
-}
-@media screen and (max-width: 320px) { 
     .lead__img{
       min-height: 200px;
     }

@@ -1,6 +1,5 @@
 .intro__description{
   width: 100%;
-  min-height: 208px;
   padding-bottom: 33px;
   margin: 0;
   font-size: 16px;
@@ -9,18 +8,7 @@
 
   font-weight: 400;
   font-family: 'Inter';
-}
 
-@media screen and (min-width: 1281px) {
-  .intro__description{
-    max-width: 690px;
-    margin-left: 0;
-  }
-}
-
-@media screen and (max-width: 1280px)  {
-  .intro__description{
-    max-width: 690px;
-    margin-left: 0;
-  }
+  max-width: 690px;
+  margin-left: 0;
 }

@@ -8,6 +8,10 @@
   font-family: 'Inter';
 }
 
+.place__link:hover{
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 768px) {
   .place__link{
     font-size: 16px;
