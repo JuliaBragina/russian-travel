@@ -1,11 +1,19 @@
 .header__lang{
-    cursor: pointer;
+  cursor: pointer;
     
-    font-size: 1.5rem;
-    line-height: 0.86;
+  font-size: 1.5rem;
+  line-height: 0.86;
 
-    font-weight: 400;
-    font-family: 'Inter';
+  font-weight: 400;
+  font-family: 'Inter';
+
+  list-style-type: none;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
   
 @media screen and (max-width: 425px) {

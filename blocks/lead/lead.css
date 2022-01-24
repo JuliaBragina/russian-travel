@@ -7,11 +7,13 @@
 @media screen and (max-width: 1024px) {
   .lead{
     min-height: 962px;
+    max-width: 92.6vw;
   }
 }
 @media screen and (max-width: 768px) {
   .lead{
     min-height: 862px;
+    max-width: 100%;
     padding-bottom: 88px;
   }
 }
@@ -21,7 +23,7 @@
     padding-bottom: 64px;
   }
 }
-@media screen and (max-width:425px){
+@media screen and (max-width:425px) {
   .lead{
     min-height: 406px;
   }

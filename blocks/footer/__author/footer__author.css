@@ -3,9 +3,10 @@
   line-height: 16px;
   text-align: right;
   margin: 0;
-
+  max-height: 18px;
   font-weight: 400;
   font-family: 'Inter', Arial, sans-serif;
+  white-space: nowrap;
 }
 
 @media screen and (max-width: 560px){

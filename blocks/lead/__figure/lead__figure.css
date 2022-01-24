@@ -14,8 +14,13 @@
 
 @media screen and (max-width: 768px) {
   .lead__figure{
-    max-width: 100%;
     min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .lead__figure{
+    min-height: 380px;
   }
 }
 

@@ -1,13 +1,14 @@
 # Russian travel
 
-## About project
-This is a training project. It shows working with 
+## О проекте
+Проект по брифу Яндекс.Практикума, в данной работе продемострирована работа
+следующих тем: 
 1. flexbox, 
 2. grid,
-3. adaptive layout for (320px 768px 1024px 1280px),
-4. form.
+3. адаптивная верстка,
+4. работа со шрифтами.
 
-In this project the metodology of BEM is used. 
+В данной работе использована методология БЭМ.
 
 GitHub Pages:
 https://juliabragina.github.io/russian-travel/

@@ -1,0 +1,17 @@
+.footer__nav-link{
+  margin: 0;
+  padding-right: 18px;
+}
+
+.footer__nav-link:last-of-type{
+  padding-right: 0;
+}
+
+@media screen and (max-width: 678px) {
+  .footer__nav-link{
+    padding-bottom: 32px;
+  }
+  .footer__nav-link:last-of-type{
+    padding-bottom: 0;
+  }
+}

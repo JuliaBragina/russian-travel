@@ -7,14 +7,15 @@
 
   font-weight: 400;
   font-family: 'Inter';
+  padding-top: 26px;
 }
 
 .place__paragraph:first-child{
-  padding-bottom: 26px;
+  padding-top: 0;
 }
 
 @media screen and (max-width: 768px) {
-  .place__description{
+  .place__paragraph{
     font-size: 16px;
     line-height: 26px;
   }

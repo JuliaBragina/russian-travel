@@ -10,7 +10,6 @@
   font-family: 'Inter';
 
   max-width: 460px;
-  min-height: 76px;
 }
 
 @media screen and (max-width: 1024px){
@@ -38,6 +37,8 @@
   .place__title{
     max-width: 288px;
     padding-left: 7%;
+    font-size: 32px;
+    line-height: 35px;
   }
 }
 
@@ -50,7 +51,5 @@
 @media screen and (max-width: 320px) { 
   .place__title{
     padding-left: 5%;
-    font-size: 32px;
-    line-height: 35px;
   }
 }
