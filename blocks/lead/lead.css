@@ -1,37 +1,27 @@
 .lead{
     margin: 0 auto;
-    min-height: 1005px;
     padding-bottom: 92px;
   } 
 
 @media screen and (max-width: 1024px) {
   .lead{
-    min-height: 962px;
     max-width: 92.6vw;
   }
 }
 @media screen and (max-width: 768px) {
   .lead{
-    min-height: 862px;
     max-width: 100%;
     padding-bottom: 88px;
   }
 }
 @media screen and (max-width: 560px) {
   .lead{
-    min-height: 490px;
     padding-bottom: 64px;
-  }
-}
-@media screen and (max-width:425px) {
-  .lead{
-    min-height: 406px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead{
-    min-height: 406px;
     padding-bottom: 63px;
   }
 }

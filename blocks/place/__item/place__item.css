@@ -3,13 +3,13 @@
     grid-template-rows: repeat(2, auto);
     grid-template-columns: repeat(2, auto);
     padding-bottom: 80px;
-
+    margin: 0 auto;
     max-width: 984px;
     grid-gap: 46px 40px;
   }
   
   .place__item:last-of-type{
-    padding-bottom: 90px;
+    padding-bottom: 92px;
   }
   
   @media screen and (max-width: 1280px) { 
@@ -21,7 +21,6 @@
   @media screen and (max-width: 1024px){
     .place__item{
       max-width: 90.6vw/*928px*/;
-      margin: 0 auto;
       grid-template-columns: minmax(341px, 440px) minmax(353px, 456px);
       grid-gap: 48px 32px;
     }
@@ -30,15 +29,18 @@
   @media screen and (max-width: 768px){
     .place__item{
       max-width: 93.8vw/*720px*/;
-      margin: 0 auto;
-      grid-template-rows: repeat(4, auto);
       grid-template-columns: minmax(241px, 340px) minmax(253px, 352px);
       grid-gap: 48px 28px;
+      padding-bottom: 73px;
+    }
+    .place__item:last-of-type{
+      padding-bottom: 90px;
     }
   }
 
   @media screen and (max-width: 640px){
     .place__item{
+      width: 100%;
       padding-bottom: 50px;
       grid-template-rows: repeat(4, auto);
       grid-template-columns: repeat(1, 100vw);
