@@ -1,5 +1,4 @@
 .intro__description{
-  width: 100%;
   padding-bottom: 33px;
   margin: 0;
   font-size: 16px;
@@ -10,5 +9,10 @@
   font-family: 'Inter', Arial, sans-serif;
 
   max-width: 690px;
-  margin-left: 0;
+}
+
+@media screen and (max-width: 768px){
+  .intro__description{
+    max-width: 100%;
+  }
 }

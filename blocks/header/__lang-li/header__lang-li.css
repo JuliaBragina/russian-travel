@@ -1,0 +1,12 @@
+.header__lang-li{
+  margin-right: 18px;
+  list-style-type: none;
+}
+
+.header__lang-li:last-of-type{
+   margin-right: 0;
+}
+
+.header__lang-li:hover{
+  opacity: 0.8;
+}

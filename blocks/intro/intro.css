@@ -14,21 +14,18 @@
 @media screen and (max-width: 768px) {
   .intro{
     padding-bottom: 88px;
-    padding-left: 3%;
-    max-width: 720px;
+    max-width: 93.8vw;
   }
 }
 
 @media screen and (max-width:425px) {
   .intro{
     padding-bottom: 64px;
-    padding-left: 5%;
-    max-width: 300px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro{
-    max-width: 288px;
+    max-width: 90vw;
   }
 }

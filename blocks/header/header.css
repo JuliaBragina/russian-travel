@@ -7,29 +7,29 @@
   padding-bottom: 56px;
   max-width: 1184px;
 }
+
 @media screen and (max-width: 1280px) {
   .header{
-    padding-bottom: 48px;
-    max-width: 92.5vw /*1184px*/;
+    max-width: 92.5vw;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .header{
     padding-bottom: 48px;
-    max-width: 90.6vw /*928px*/;
+    max-width: 90.6vw;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header{
-    max-width: 93.8vw /*720px*/;
+    max-width: 93.8vw;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header{
     padding-top: 16px;
-    max-width: 90vw/*288px*/;
+    max-width: 90vw;
   }
 }

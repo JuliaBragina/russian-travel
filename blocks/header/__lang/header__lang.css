@@ -1,28 +1,6 @@
-.header__lang{
-  cursor: pointer;
-    
-  font-size: 1.5rem;
-  line-height: 0.86;
-
-  font-weight: 400;
-  font-family: 'Inter', Arial, sans-serif;
-
-  list-style-type: none;
-  color: #fff;
+.header__lang {
   display: flex;
   justify-content: flex-end;
   margin: 0;
   padding: 0;
-  text-decoration: none;
-}
-
-.header__lang:hover{
-  opacity: 0.8;
-}
-  
-@media screen and (max-width: 425px) {
-  .header__lang{
-    font-size: 1.1rem;
-    line-height: 0.9;
-  }
 }
