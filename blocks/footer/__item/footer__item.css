@@ -1,17 +1,17 @@
-.footer__nav-link{
+.footer__item{
   margin: 0;
   padding-right: 18px;
 }
 
-.footer__nav-link:last-of-type{
+.footer__item:last-of-type{
   padding-right: 0;
 }
 
 @media screen and (max-width: 678px) {
-  .footer__nav-link{
+  .footer__item{
     padding-bottom: 32px;
   }
-  .footer__nav-link:last-of-type{
+  .footer__item:last-of-type{
     padding-bottom: 0;
   }
 }
